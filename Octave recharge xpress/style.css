@@ -1,0 +1,30 @@
+/* Extracted styles from index.html */
+body { margin:0; font-family: Arial, sans-serif; background: linear-gradient(135deg, #0f2027, #203a43); color:white; }
+.container { max-width: 420px; margin: 20px auto; background: rgba(255,255,255,0.05); border-radius: 20px; overflow:hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.6); }
+header { background: white; padding: 30px 15px; text-align:center; }
+.text-logo {
+  font-size: 28px;
+  font-weight: 900;
+  color: #001f3f;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+.text-logo span { color: #00d2ff; font-size: 32px; }
+.text-logo small { font-size:16px; color:#333; letter-spacing:1px; font-weight:normal; }
+.content { padding:25px; }
+select, input { width:100%; padding:15px; margin:12px 0; border-radius:12px; border:none; font-size:16px; box-sizing:border-box; }
+.operators { display:flex; justify-content:space-around; margin:30px 0; }
+.op { width:105px; height:105px; padding:10px; border-radius:20px; background:rgba(255,255,255,0.1); transition:0.3s; cursor:pointer; }
+.op img { width:100%; height:100%; object-fit:contain; pointer-events:none; }
+.op.selected { background:#00d2ff; transform:scale(1.15); box-shadow: 0 0 25px #00d2ff; }
+.price { text-align:center; font-size:32px; font-weight:bold; margin:25px 0; color:#00d2ff; opacity:0; transition:0.4s; }
+.price.visible { opacity:1; }
+button { width:100%; padding:18px; margin:15px 0; border:none; border-radius:12px; font-size:18px; font-weight:bold; color:white; cursor:pointer; }
+.btn-wave { background:#00d2ff; }
+.btn-wa { background:#25d366; }
+.btn-sms { background:#128c7e; }
+.btn-physique { background:#28a745; }
+.payment-info { text-align:center; background:rgba(0,0,0,0.4); padding:15px; border-radius:12px; margin:20px 0; }
+footer { text-align:center; padding:20px; background:#000; font-size:14px; }
+.error { color:#ff6b6b; font-size:14px; margin-top:-8px; margin-bottom:8px; display:none; }
